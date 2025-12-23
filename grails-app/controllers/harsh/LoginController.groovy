@@ -3,9 +3,8 @@ package harsh
 import jwtFilter.JwtTokenGenerator
 import org.springframework.security.authentication.AuthenticationManager
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken
+import org.springframework.security.core.AuthenticationException
 import org.springframework.security.core.context.SecurityContextHolder
-
-import javax.naming.AuthenticationException
 
 class LoginController {
 
